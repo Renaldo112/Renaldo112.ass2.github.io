@@ -1,0 +1,127 @@
+
+
+* {
+    
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+body{ padding: 0 3rem;
+    
+    background-image: url(bg-intro-.jpeg);
+    background-color: hsl(0, 100%, 74%) ;
+}
+
+.container1{ 
+
+    max-width: 75rem;
+    margin: auto;
+    margin-top: 3rem;
+    display: flex;
+    
+ 
+  
+
+   
+}
+h1{font-family: 'Poppins', sans-serif;
+    color:white ;
+    margin-bottom: 2rem;
+}
+
+
+
+
+.text-container{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 52%;
+
+}
+
+
+
+p {
+    color: white;line-height: 1.5rem;
+
+}
+
+.container-form { 
+
+    width: 52%;
+}
+
+.button1{
+    color: white;
+    background-color: hsl(248, 32%, 49%) ;
+    height: 3rem;
+    width: 100%;
+    margin-bottom: 2rem;
+    border: none;
+    border-radius: .3rem;
+    box-shadow: 0px 4px  rgba(0, 0, 0, 0.212);
+}
+
+.inputs-button-form {
+    padding: 2rem;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: .5rem;
+   
+
+
+}
+
+form{
+    
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-bottom: 1rem;
+    
+}
+
+.fill-in { 
+    padding-left: 1rem;
+    height: 2rem;
+    margin: 1rem 0;
+   
+
+}
+.button2 {
+    width: 90%;
+    height: 2rem;
+    margin-bottom: .8rem;
+    background-color: hsl(154, 59%, 51%);
+    color: white;
+    border: none;
+    border-radius: .3rem;
+
+
+
+}
+text {
+    font-size: .5rem;
+}
+
+@media (max-width:685px){
+    .container1{
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    body{
+        padding: 0;
+    }
+
+
+
+}
+
